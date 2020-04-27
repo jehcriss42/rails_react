@@ -27,7 +27,7 @@ class TodoApp extends React.Component {
   }
   getTodoItems() {
     axios
-      .get("/api/v1/todo_items1")
+      .get("/api/v1/todo_items")
       .then(response => {
         this.clearErrors();
         this.setState({ isLoading: true });
