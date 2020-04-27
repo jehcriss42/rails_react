@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/jehcriss42/rails_react.svg?branch=master)](https://travis-ci.com/jehcriss42/rails_react)
+[![Coverage Status](https://coveralls.io/repos/github/jehcriss42/rails_react/badge.svg?branch=master)](https://coveralls.io/github/jehcriss42/rails_react?branch=master)
 
 # Rails + React
 
