@@ -3,5 +3,5 @@ rvm:
  - 2.6.6
 script:
  - nvm install node
- - nvm use --lts
+ - npm install -g webpack
  - bundle exec rails webpacker:compile
