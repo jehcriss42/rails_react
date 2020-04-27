@@ -2,5 +2,5 @@ language: ruby
 rvm:
  - 2.6.6
 script:
- - npm cache clean -f ; npm install -g n ; n stable
+ - sudo npm cache clean -f ; sudo npm install -g n ; sudo n stable
  - bundle exec rails webpacker:compile
