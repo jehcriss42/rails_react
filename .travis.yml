@@ -2,5 +2,6 @@ language: ruby
 rvm:
  - 2.6.6
 script:
- - sudo npm cache clean -f ; sudo npm install -g n ; sudo n stable
+ - nvm install node
+ - nvm use --lts
  - bundle exec rails webpacker:compile
