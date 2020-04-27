@@ -4,4 +4,4 @@ rvm:
 script:
  - nvm install node
  - npm install -g webpack
- - rails test
+ - bundle exec rake test
