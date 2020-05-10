@@ -6,4 +6,4 @@ script:
  - npm install -g webpack
  - yarn install
  - bundle exec rails webpacker:compile
- - bundle exec rake test
+ - bundle exec rake spec
