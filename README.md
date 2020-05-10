@@ -3,23 +3,25 @@
 
 # Rails + React
 
-Practice Ruby on Rails Project with a React Frontend implementation and different tests approaches. 
+Practice Ruby on Rails Project with a React Frontend implementation and different test approaches. 
 
 
 Versions:
 
-Ruby 2.6.6
+- Ruby 2.6.6
 
-Rails 6.0.2.2
+- Rails 6.0.2.2
 
-Next: Implement Different tests approachs
+Implemented: 
+
+- Unit Tests
+
+- Continuous Integration with Travis CI
+
+- Test Coverage with Coveralls
 
 
 
-
-
-
-
-Tutorial link to implement the Ruby on Rails Project with a React Frontend:
+Tutorial to implement the Ruby on Rails Project, React Frontend and Unit Test:
 
 https://stevepolito.design/blog/rails-react-tutorial/
