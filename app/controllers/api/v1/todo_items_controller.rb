@@ -23,8 +23,6 @@ class Api::V1::TodoItemsController < ApplicationController
               format.json { render json: @todo_item.errors, status: :unprocessable_entity }
             end
           end
-        else
-          handle_unauthorized
         end
     end
     def update
