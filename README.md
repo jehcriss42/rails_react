@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.com/jehcriss42/rails_react.svg?branch=master)](https://travis-ci.com/jehcriss42/rails_react)
-[![Coverage Status](https://coveralls.io/repos/github/jehcriss42/rails_react/badge.svg?branch=master)](https://coveralls.io/github/jehcriss42/rails_react?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/jehcriss42/rails_react/badge.svg)](https://coveralls.io/github/jehcriss42/rails_react)
 
 # Rails + React
 
@@ -22,6 +22,6 @@ Implemented:
 
 
 
-Tutorial to implement the Ruby on Rails Project, React Frontend and Unit Test:
+Tutorial to implement the Ruby on Rails, React Frontend and Unit Test:
 
 https://stevepolito.design/blog/rails-react-tutorial/
