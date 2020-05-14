@@ -1,9 +1,26 @@
+# With Dockerfile:
 language: ruby
-rvm:
- - 2.6.6
+
+services:
+    - docker
+    
+before_install:
+    - docker build -t test .
+    - docker run -d -p 127.0.0.1:3000:3000 test 
+    - docker ps -a
+    - docker run test /bin/sh -c "bundle exec rake db:drop db:create db:migrate ; bundle exec rake spec"
+    
 script:
- - nvm install node
- - npm install -g webpack
- - yarn install
- - bundle exec rails webpacker:compile
- - bundle exec rake spec
+    - bundle exec rake test
+
+# Without Dockerfile:
+#
+# language: ruby
+# rvm:
+#  - 2.6.6
+# script:
+#  - nvm install node
+#  - npm install -g webpack
+#  - yarn install
+#  - bundle exec rails webpacker:compile
+#  - bundle exec rake spec
