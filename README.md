@@ -18,7 +18,9 @@ Implemented:
 
 - Added dockerfile
     - To run locally: 
+    
         sudo docker build -t test .
+        
         sudo docker run -p 3000:3000 test
 
 - Continuous Integration with Travis CI
