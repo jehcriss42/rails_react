@@ -3,7 +3,7 @@
 
 # Rails + React
 
-Practice Ruby on Rails Project with a React Frontend implementation and different test approaches. 
+Practice Ruby on Rails Project with a React Frontend implementation. 
 
 
 Versions:
