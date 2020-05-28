@@ -33,7 +33,7 @@ jobs:
     - name: install yarn
       run: yarn install
     - name: install dependencies
-      run: bundle install
+      run: sudo apt-get install libsqlite3-dev ; bundle install
     - name: Compile webpacker
       run: bundle exec rails webpacker:compile
     - name: Run tests
