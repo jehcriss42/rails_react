@@ -24,8 +24,10 @@ jobs:
       uses: ruby/setup-ruby@ec106b438a1ff6ff109590de34ddc62c540232e0
       with:
         ruby-version: 2.6
-    - name: Install dependencies
-      run: nvm install node
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+        registry-url: 'https://registry.npmjs.org'
     - name: Install webpack
       run: npm install -g webpack
     - name: install yarn
