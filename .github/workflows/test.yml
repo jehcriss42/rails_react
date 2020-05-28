@@ -32,6 +32,8 @@ jobs:
       run: npm install -g webpack
     - name: install yarn
       run: yarn install
+    - name: install dependencies
+      run: bundle install
     - name: Compile webpacker
       run: bundle exec rails webpacker:compile
     - name: Run tests
